@@ -1,0 +1,17 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/hours" ... placeholder="Hours"/>
+    <EditText android:id="@+id/minutes" ... placeholder="Minutes"/>
+    <EditText android:id="@+id/seconds" ... placeholder="Seconds"/>
+
+    <TextView android:id="@+id/timerDisplay" ... />
+
+    <Button android:id="@+id/startButton" ... text="Start"/>
+    <Button android:id="@+id/pauseButton" ... text="Pause"/>
+    <Button android:id="@+id/resetButton" ... text="Reset"/>
+</LinearLayout>
