@@ -27,6 +27,11 @@
         <activity android:name=".SoundSettingsActivity"
             android:exported="false" />
 
+        <!-- Timer History Activity -->
+        <activity android:name=".TimerHistoryActivity"
+            android:label="Timer History"
+            android:exported="true" /> <!-- Add android:exported attribute for Android 12+ compatibility -->
+
     </application>
 
 </manifest>

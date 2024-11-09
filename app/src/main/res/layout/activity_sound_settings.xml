@@ -19,7 +19,7 @@
         android:id="@+id/soundOptionsSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp" />
+        android:entries="@array/sound_options" />
 
     <Button
         android:id="@+id/previewButton"
@@ -27,12 +27,13 @@
         android:layout_height="wrap_content"
         android:text="Preview Sound"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save Sound"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
 </LinearLayout>

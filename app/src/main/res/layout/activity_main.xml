@@ -56,4 +56,21 @@
         android:text="Reset"
         android:layout_marginTop="8dp" />
 
+    <Button
+        android:id="@+id/soundSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Settings"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <!-- New "See Timer History" button below Sound Settings -->
+    <Button
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Timer History"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
 </LinearLayout>
